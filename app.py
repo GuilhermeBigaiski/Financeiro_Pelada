@@ -40,7 +40,7 @@ if st.button("Registrar"):
         "descricao_id": descricoes_filtradas[descricao_nome],
         "jogador_id": jogadores[jogador_nome],
         "data": str(data),
-        "valor": valor
+        "valor": float(str(valor).replace(",", "."))
     }).execute()
 
     if hasattr(response, "data") and response.data:
@@ -48,3 +48,4 @@ if st.button("Registrar"):
     else:
         st.error("❌ Erro ao registrar a transação.")
         st.write(response)
+
