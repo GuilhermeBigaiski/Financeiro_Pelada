@@ -55,11 +55,11 @@ financeiro_pelada/
 
 ##  Related Project
 
-This repository is part of an end-to-end data solution:
+This repository is part of the larger project:
 
-**Football Performance & Financial Control – End-to-End Data Project**  
-👉 Main portfolio repository:  
-https://github.com/GuilhermeBigaiski/Portfolio
+**Football Performance & Financial Control – End-to-End Data Project**
+
+The main portfolio repository provides an overview of the full solution and related modules.
 
 ---
 
